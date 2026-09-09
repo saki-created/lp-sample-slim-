@@ -46,6 +46,8 @@ img{max-width:100%;height:auto;display:block;}
 .wrap{width:100%;max-width:700px;margin:0 auto;padding:0 24px;}
 section{padding:80px 0;}
 h1,h2,h3,p,li,dd{text-wrap:pretty;}
+/* 末尾に1文字だけ落ちる孤立行を防ぐ（行を均等割り） */
+.lead-c,.signature .desc,.offer .note,.pitch p,.pitch h2,.info dd,.hero .sub,.forwho .close,.voice p,.feat p,.dig-box p{text-wrap:balance;}
 
 .eyebrow{font-family:var(--jost);font-size:12px;letter-spacing:.3em;color:var(--gold);text-transform:uppercase;margin:0 0 14px;text-align:center;}
 h2{font-family:var(--mincho);font-size:24px;line-height:1.7;font-weight:500;margin:0 0 12px;text-align:center;letter-spacing:.04em;}
